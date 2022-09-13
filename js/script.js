@@ -27,3 +27,21 @@ const slides = [
 ];
 
 console.log(slides);
+
+const app = new Vue (
+    {
+        el: '#app',
+        methods: {
+            prevButton : function(){
+                console.log('mi hai cliccato')
+            },
+
+            nextButton : function(){
+                console.log('mi hai cliccato')
+            }
+
+
+
+        }
+    }
+)
