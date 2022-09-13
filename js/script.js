@@ -81,6 +81,10 @@ const app = new Vue({
             } else {
                 this.imageActive--;
             }
-        }
+        },
+
+        bigImage (i) { // BONUS 
+            this.imageActive = i;
+        },
     }
 })
